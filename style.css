@@ -160,9 +160,9 @@ body:has(.about-layout) {
   margin:0px auto;
     overflow-y: auto;
     scrollbar-color: #e2d5d0 transparent;
-    border: 40px solid transparent;
+    border: 80px solid transparent;
     border-image-source: url('./img/border.png');
-    border-image-slice: 18% fill;
+    border-image-slice: 20% fill;
     border-image-repeat: round;
     background-color: transparent;
     padding: 15px 0px 15px 0px;
@@ -257,7 +257,7 @@ body:has(.about-layout) {
     padding: 0px;
     border: 30px solid transparent;
     border-image-source: url('./img/border.png');
-    border-image-slice: 18% fill;
+    border-image-slice: 20% fill;
     border-image-repeat: round;
     background-color: transparent;
 }
