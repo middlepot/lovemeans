@@ -147,7 +147,6 @@ body:has(.about-layout) {
     margin-top: 5vh;
     left: 50%;
     transform: translateX(-50%);
-    margin-bottom: 10vh;
     width: 70vh;
     max-width: 80vw;
     z-index: 10;
@@ -166,6 +165,7 @@ body:has(.about-layout) {
     border-image-repeat: round;
     background-color: transparent;
     padding: 15px 0px 15px 0px;
+    margin-bottom: 8vh;
 }
 
 .love-table {
