@@ -220,7 +220,6 @@ body:has(.about-layout) {
   line-height: 1.3em; 
 }
   .love-meaning {
-  height: 280px;
   box-sizing: border-box;
   padding:10px 15px 30px 15px;
   line-height: 1.4em; 
@@ -232,6 +231,24 @@ body:has(.about-layout) {
   background-color: transparent;
   border-collapse: separate; 
   }
+
+  .meaning-area {
+  min-height: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#myRandomDiv {
+  display: block;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+#myRandomDiv.fading {
+  opacity: 0;
+}
 
   .out-links {
   padding: 30px 10px 30px 10px;
