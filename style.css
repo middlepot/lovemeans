@@ -220,10 +220,12 @@ body:has(.about-layout) {
   line-height: 1.3em; 
 }
   .love-meaning {
+  height: 300px;
   box-sizing: border-box;
   padding:10px 15px 30px 15px;
   line-height: 1.4em; 
   text-align: left;
+  font-size: 0.9rem;
   border: 40px solid transparent;
   border-image-source: url('./img/lace.png');
   border-image-slice: 20% fill;
@@ -330,6 +332,8 @@ body:has(.about-layout) {
 
 @media (max-width: 768px) {
 .love-meaning {
+  height: 280px;
+  font-size: 0.8rem;
   border: 20px solid transparent;
   border-image-source: url('./img/lace.png');
   border-image-slice: 20% fill;
