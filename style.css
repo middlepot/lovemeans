@@ -137,8 +137,8 @@ body:has(.about-layout) {
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 60vw;
+    height: 60vh;
     position: relative;
 }
 
@@ -153,7 +153,7 @@ body:has(.about-layout) {
 }
 
 .about-content-box {
-  width: 80%;
+  width: 60%;
   min-height: 60vh;
   position: relative;
   margin:0px auto;
@@ -164,12 +164,12 @@ body:has(.about-layout) {
     border-image-slice: 20% fill;
     border-image-repeat: round;
     background-color: transparent;
-    padding: 15px 0px 15px 0px;
-    margin-bottom: 8vh;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 3vh;
 }
 
 .love-table {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     border-collapse: collapse;
     text-align: center;
@@ -180,8 +180,13 @@ body:has(.about-layout) {
   }
 
   .teddies {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
+  }
+
+  .subtitle {
+    max-width: 60%;
+    margin: 0 auto;
   }
 
   .locket {
@@ -192,7 +197,7 @@ body:has(.about-layout) {
 
   .locket-container {
   position: relative;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
   cursor: url(./img/cursorh.png), progress;
 }
@@ -220,7 +225,9 @@ body:has(.about-layout) {
   line-height: 1.3em; 
 }
   .love-meaning {
-  height: 300px;
+  height: 280px;
+  width: 80%;
+  margin: 0 auto;
   box-sizing: border-box;
   padding:10px 15px 30px 15px;
   line-height: 1.4em; 
@@ -253,7 +260,8 @@ body:has(.about-layout) {
 }
 
   .out-links {
-  padding: 30px 10px 30px 10px;
+  max-width: 50%;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -331,6 +339,9 @@ body:has(.about-layout) {
 
 
 @media (max-width: 768px) {
+  .love-table {
+  font-size: 0.8rem;
+}
 .love-meaning {
   height: 280px;
   font-size: 0.8rem;
@@ -342,13 +353,14 @@ body:has(.about-layout) {
   border-collapse: separate; 
 }
     .about-center-wrapper {
-        top: 5vh;
-  margin-bottom:10vh;
+        top: 3vh;
+  margin-bottom:3vh;
     }
     .about-content-box {
     width: 80%;
     min-height: 60vh;
     margin-top: -5%;
+  font-size: 0.8rem;
     padding: 0px;
     border: 30px solid transparent;
     border-image-source: url('./img/border.png');
@@ -358,6 +370,20 @@ body:has(.about-layout) {
 }
 .locket-text {
   font-size: 0.5rem;
+}
+
+  .teddies {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .subtitle {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .out-links {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 #days {
