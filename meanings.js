@@ -44,11 +44,12 @@ function randomizePhrase(){
         randomIndex = Math.ceil((Math.random() * 33) % randomStrings.length - 1);
         newText = randomStrings[randomIndex];
     }while(randomDivSelections.includes(newText));
-    randomDiv.innerHTML = newText;
-    randomDivSelections.push(newText);
-    $(randomDiv).removeClass('typewriter');
-    var originalDisplay = randomDiv.style.display;
-    randomDiv.style.display = 'none';
-    setTimeout(function(){$(randomDiv).addClass('typewriter'); randomDiv.style.display = originalDisplay;}, 100);
+randomDivSelections.push(newText);
+
+randomDiv.classList.remove('typewriter');
+randomDiv.textContent = newText;
+
+void randomDiv.offsetWidth;
+randomDiv.classList.add('typewriter');
 }
 randomizePhrase();
